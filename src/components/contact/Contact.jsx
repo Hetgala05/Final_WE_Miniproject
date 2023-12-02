@@ -10,7 +10,7 @@ const Contact = () => {
       <section className='contacts padding'>
         <div className='container shadow flexSB'>
           <div className='left row'>
-            <iframe src={map}></iframe>
+            <iframe title="location" src={map}></iframe>
           </div>
           <div className='right row'>
             <h1>Contact us</h1>
@@ -42,6 +42,30 @@ const Contact = () => {
               </textarea>
               <button className='primary-btn'>SEND MESSAGE</button>
             </form>
+
+          {/* new not sure which to add rn*/}
+
+          {/* <div class="Container">
+                <form id="signup-form">
+                        <p class="info" for="username">Username:</p>
+                        <input type="text" id="username" name="username"/>
+                        <div class="error" id="username-error"></div>
+
+                        <p class="info" for="email">Email:</p>
+                        <input type="email" id="email" name="email"/>
+                        <div class="error" id="email-error"></div>
+
+                        <p class="info" for="password">Password:</p>
+                        <input type="password" id="password" name="password"/>
+                        <div class="error" id="password-error"></div>
+
+                        <p class="info" for="confirm-password">Confirm Password:</p>
+                        <input type="password" id="confirm-password" name="confirm-password" placeholder="Reenter your password"/>
+                        <div class="error" id="confirm-password-error"></div>
+                    <button id="button" type="submit">SIGN UP</button>
+                </form>
+            </div> */}
+
 
             <h3>Follow us here</h3>
             <span>FACEBOOK TWITTER INSTAGRAM DRIBBBLE</span>
