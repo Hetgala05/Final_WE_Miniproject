@@ -12,6 +12,9 @@
   padding-right: 50px;
   color: #fff;
 }
+#view_course{
+  cursor: pointer;
+}
 .hero #heading h3 {
   color: #fff;
 }

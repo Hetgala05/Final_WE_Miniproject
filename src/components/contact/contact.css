@@ -3,6 +3,23 @@
   height: 100%;
   border: none;
 }
+#message{
+  height:10rem;
+  text-align: left;
+  vertical-align: top;
+}
+#message::placeholder{
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 1rem;
+  font-size: 1rem;
+}
+input:focus {
+  border-color: #1eb2a6; 
+  box-shadow: 0 0 5px rgba(30, 178, 166, 0.8);
+}
+
 .contacts .right {
   padding: 50px;
 }
